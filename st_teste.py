@@ -1,4 +1,4 @@
-import streamlit as st
+oimport streamlit as st
 import requests
 
 st.title('Consulta CEP')
@@ -22,4 +22,4 @@ try:
         endereco['uf']
         )
 except:
-    st.warning('CEP Incorreto/Inexistente', icon='🚨')
+    st.error('CEP Incorreto/Inexistente', icon='🚨')
