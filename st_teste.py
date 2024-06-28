@@ -1,4 +1,4 @@
-oimport streamlit as st
+import streamlit as st
 import requests
 
 st.title('Consulta CEP')
