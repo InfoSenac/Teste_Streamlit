@@ -14,6 +14,7 @@ try:
     endereco = endereco.json()
     st.write(
         endereco['logradouro'], 
+        endereco['complemento'],
         '-', 
         endereco['bairro'], 
         '-', 
